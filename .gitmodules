@@ -1,6 +1,8 @@
-[submodule "backend"]
-	path = backend
+[submodule "server"]
+	path = server
 	url = git@github.com:batfink/graphql-js
-[submodule "frontend"]
-	path = frontend
+	branch = starter
+[submodule "client"]
+	path = client
 	url = git@github.com:batfink/react-apollo
+	branch = starter
